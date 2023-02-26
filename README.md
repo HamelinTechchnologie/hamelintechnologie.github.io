@@ -2,9 +2,8 @@
 
 ***Web Coffe using*** HTML, CSS, & Javascript
 
-[De'Paris Cefe](https://satriai0508.github.io/web-paris-cafe)
-
 **Bagian Head**
+
 ```head of html
   <head>
     <meta charset="UTF-8" />
@@ -28,6 +27,7 @@
 ```
 
 **Bagian Navbar**
+
 ```navbar in html
   <nav class="navbar">
     <a href="#home" class="navbar-logo">De' Paris <span>Cafe</span>.</a>
@@ -46,6 +46,7 @@
 ```
 
 **Bagian Hero**
+
 ```hero section in html
   <section class="hero" id="home">
     <main class="content">
@@ -57,6 +58,7 @@
 ```
 
 **Bagian About**
+
 ```about section in html
   <section class="about" id="about">
     <h2><span>About</span> Us</h2>
@@ -74,6 +76,7 @@
 ```
 
 **Bagian Menu**
+
 ```menu section in html
   <section class="menu" id="menu">
     <h2><span>Menu</span> Kami.</h2>
@@ -104,6 +107,7 @@
 ```
 
 **Bagian Contact**
+
 ```contact section in html
   <section id="contact" class="contact">
     <h2><span>Kontak</span> Kami.</h2>
@@ -152,6 +156,7 @@
 ```
 
 **Bagian Footer**
+
 ```footer section in html
   <footer>
     <div class="socials">
@@ -177,6 +182,7 @@
 ```
 
 **Tambahkan CSS nya ya :)**
+
 ```css
 /* Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,100;1,700&display=swap");
@@ -621,6 +627,7 @@ footer .credit a {
 ```
 
 **Tambahkan sedikit javascript, kalau cuma html sama css aja kurang. Ibarat sayur tanpa garam.**
+
 ```javascript
 const navbarNav = document.querySelector(".navbar-nav");
 
@@ -636,7 +643,8 @@ document.addEventListener("click", function (e) {
 });
 ```
 
-Hasil jadinya 
+Hasil jadinya
 
+![De'Paris Cafe!](img/De-Paris-Cafe.png "Landing Page Web Cafe")
 
-![De'Paris Cafe!](https://satriai0508.github.io/web-paris-cafe)
+Hasil jadi yang di hosting di Github Pages [De'Paris Cefe](https://satriai0508.github.io/web-paris-cafe)
