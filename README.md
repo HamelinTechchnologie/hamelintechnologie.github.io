@@ -639,4 +639,4 @@ document.addEventListener("click", function (e) {
 Hasil jadinya 
 
 
-![De'Paris Cafe!](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
+![De'Paris Cafe!](https://satriai0508.github.io/web-paris-cafe/ "Website Landing Page")
