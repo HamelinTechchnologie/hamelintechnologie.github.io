@@ -639,4 +639,4 @@ document.addEventListener("click", function (e) {
 Hasil jadinya 
 
 
-![De'Paris Cafe!](https://satriai0508.github.io/web-paris-cafe/ "Website Landing Page")
+![De'Paris Cafe!](https://satriai0508.github.io/web-paris-cafe)
