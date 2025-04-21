@@ -1,4 +1,12 @@
-  pip install ffmpeg
+
+
+ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O \miniconda.sh
+bash miniconda.sh -b -u -p miniconda3
+  source miniconda3/bin/activate
+   conda init
+   source ~/.bashrc
+   conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+pip install ffmpeg
 pip install -q TTS==0.21.1  --no-deps
 pip install -q -r requirements_xtts.txt
 pip install -q TTS==0.21.1  --no-deps
