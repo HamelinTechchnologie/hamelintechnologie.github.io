@@ -2,6 +2,10 @@
 
  wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O \miniconda.sh
 bash miniconda.sh -b -u -p miniconda3
+conda create -n sonitr python=3.10 -y
+conda activate sonitr
+python -m pip install pip==23.1.2
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
   source miniconda3/bin/activate
    conda init
    source ~/.bashrc
